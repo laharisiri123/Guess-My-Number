@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+#heading {
+  color: skyblue;
+  font-size: 70px;
+  text-align: center;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+
+#sub-head {
+  color: rgb(218, 155, 213);
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+  margin-top: 5px;
+}
+
+.number {
+  color: white;
+  border: 3px solid green;
+  background-color: green;
+  width: 100px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.message {
+  color: rgb(221, 226, 78);
+  font-size: 30px;
+  text-align: center;
+  margin: 20px;
+}
+
+.guess {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 160px;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(203, 61, 85);
+  background-color: rgb(234, 235, 190);
+}
+.buttons {
+  display: flex; /* Use flex display to place buttons in a row */
+  justify-content: center; /* Center buttons horizontally */
+  margin-bottom: 50px;
+}
+
+.check,
+.restart {
+  /* Styles for the buttons */
+  width: 150px;
+  height: 50px;
+  margin: 0 10px; /* Add some spacing between buttons */
+  padding: 10px;
+  font-size: 20px;
+  color: blue;
+  background-color: aquamarine;
+  font-weight: bold;
+}
+
+.restart {
+  color: black;
+  background-color: red;
+}
+.score {
+  color: palevioletred;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.high-score {
+  color: rgb(211, 103, 139);
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
