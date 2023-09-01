@@ -1,3 +1,18 @@
+/* Your existing CSS rules */
+
+/* Media query for screens with a maximum width of 600px (typical mobile devices) */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px; /* Adjust font size for better readability on smaller screens */
+  }
+
+  #heading {
+    font-size: 40px; /* Decrease heading font size */
+  }
+
+  /* Adjust other styles as needed for mobile devices */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +24,7 @@ body {
 }
 
 #heading {
-  color: skyblue;
+  color: rgb(100, 202, 211);
   font-size: 70px;
   text-align: center;
   margin: 20px;
@@ -17,7 +32,7 @@ body {
 }
 
 #sub-head {
-  color: rgb(218, 155, 213);
+  color: rgb(216, 112, 207);
   font-size: 30px;
   text-align: center;
   margin: 10px;
@@ -44,10 +59,11 @@ body {
 }
 
 .message {
-  color: rgb(221, 226, 78);
-  font-size: 30px;
+  color: rgba(207, 214, 14, 0.873);
+  font-size: 35px;
   text-align: center;
   margin: 20px;
+  font-weight: bold;
 }
 
 .guess {
